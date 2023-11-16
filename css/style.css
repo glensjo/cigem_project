@@ -1110,17 +1110,24 @@ nav {
     padding-right: 0;
 }
 
-/*----- About -----*/
+/*----- About Section -----*/
 #about {
-    padding-top: 90px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about-text {
+    margin-top: 20px;
+    padding-right: 60px;
+} 
+#about p {
+    line-height: 1.8;
 }
 @media (min-width: 992px) {
-    .features-row {
+    .about-row {
         margin-bottom: 70px;
         text-align: left
     }
-    .feature-column {
+    .about-column {
         margin-bottom: 0px;
     }
     .back-icon {
@@ -1137,7 +1144,7 @@ nav {
     }
 }
 @media (max-width: 992px) {
-    .feature-column {
+    .about-column {
         margin-bottom: 15px;
     }
     .back-icon {
@@ -1153,7 +1160,7 @@ nav {
         font-size: 80px;
     }
 }
-.feature-info h4 {
+.about-info h4 {
     font-family: 'Exo', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -1162,20 +1169,19 @@ nav {
     letter-spacing: 1px;
     font-size: 18px;
     margin-top: 0px;
-    
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
 }
-.feature-icon {
+.about-icon {
 	float: left;
 }
-.feature-info {
+.about-info {
 	padding-left: 55px;
 	padding-top: 5px;
 }
-.feature-description {
+.about-description {
     line-height: 23px;
     padding-right: 10px;
     
@@ -1183,22 +1189,11 @@ nav {
 .ion-2-5x {
     font-size: 2.5em;
 }
-.feature-buttons {
+.about-buttons {
     margin-top: 40px;
 }
 
-/*----- About Section -----*/
-#about {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-.about-text {
-    margin-top: 20px;
-    padding-right: 60px;
-} 
-#about p {
-    line-height: 1.8;
-}
+
 
 /*----- Team -----*/
 #team {
