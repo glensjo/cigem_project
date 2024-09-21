@@ -1,5 +1,5 @@
 .overlay {
-    background: #4C5828;
+    background: #034d42  ;
 }
 
 .btn-home a,
@@ -34,7 +34,7 @@
 .cbp-l-loadMore-button .cbp-l-loadMore-button-link:hover,
 .pager li>a:hover, .pager li>a:focus 
 {
-	background: #FEC868;
+	background: #44b1a1;
 }
 
 
@@ -87,7 +87,7 @@ footer #social-icons li a:hover,
 #notification .success,
 .section-links a:hover,
 .blog-post-title a:hover {
-	color: #F87C58;
+	color: #44b1a1  ;
 }
 
 .cbp-l-filters-alignRight .cbp-filter-counter:before,
